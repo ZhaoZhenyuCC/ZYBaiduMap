@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZYBaiduMap_Example' do
+  pod 'ZYBaiduMap', :path => '../'
+
+  target 'ZYBaiduMap_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
